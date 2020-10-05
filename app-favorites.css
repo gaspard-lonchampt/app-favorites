@@ -1,0 +1,311 @@
+/*-------------Style---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+html {
+background-image: url(media/jeremy-bishop-P04_cJHFkVM-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100%;
+}
+
+
+/*-------------Header---------*/
+
+#hd_env {
+    display: flex;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#hd_env a {
+    text-decoration: none;
+    color: black;
+}
+
+#hd_logo {
+    width: 40%;
+    text-align: right;
+}
+
+#hd_logo img {
+    width: 17%;
+}
+
+
+#titre_site {
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+}
+
+
+/*-------------Naviguation--texte-------*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.top_nav {
+    height: 100%;
+    width: 100%;
+}
+
+.top_nav a {
+    text-decoration: none;
+}
+
+.top_liste {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.top_liste li {
+    padding-right: 3%;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    list-style: none
+}
+
+
+#top_nav_arte {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+
+#top_liste_arte {
+    margin-right: 20%;
+    width: 10%;
+}
+
+#top_liste_arte a {
+    color: black;
+    font-size: 200%;
+}
+
+#top_liste_arte_li {
+    transform: scale(1);
+    transition: transform 3s ease-out;
+}
+
+#top_liste_arte_li:hover {
+    transform: scale(3);
+    transition: transform 1s;
+}
+
+#police_arte:hover {
+    color:#F24405;
+}
+
+#top_nav_apple {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+
+#top_liste_apple {
+    width: 20%;
+}
+
+#top_liste_apple_li {
+    transform: scale(1);
+    transition: transform 3s ease-out;
+}
+
+
+#top_liste_apple_li:hover {
+    background: -webkit-linear-gradient(pink, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(3);
+    transition: transform 1.5s;
+}
+
+
+#top_liste_apple a {
+    font-size: 200%;
+    color: black;
+}
+
+
+#top_nav_seek {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+
+#top_liste_seek {
+    margin-left: 20%;
+    margin-bottom: 1%;
+    width: 10%;
+}
+
+#top_liste_seek a {
+    color: black;
+    font-size: 200%;
+}
+
+#top_liste_seek_li {
+    transform: scale(1);
+    transition: transform 3s ease-out;
+}
+
+#top_liste_seek_li:hover {
+    transform: scale(3);
+    transition: transform 1s;
+}
+
+#police_seek:hover {
+    color:#44A653;
+}
+
+/*-------------Body--logo-animé------*/
+
+
+
+@keyframes logo3FadeInOut {
+    0% {
+        opacity:1;
+      }
+      17% {
+        opacity:1;
+      }
+      25% {
+        opacity:0;
+      }
+      92% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+
+  #logo3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo3 img {
+    animation-name: logo3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    width: 10%;
+    position: absolute;
+    border-radius: 30px;
+  }
+  
+  #logo3 img:nth-of-type(1) {
+    animation-delay: 6s;
+  }
+  #logo3 img:nth-of-type(2) {
+    animation-delay: 4s;
+  }
+  #logo3 img:nth-of-type(3) {
+    animation-delay: 2s;
+  }
+
+  #logo3 img:nth-of-type(4) {
+    animation-delay: 0;
+  }
+
+
+
+/*-------------Footer-------*/
+
+#footer {
+    background-color: rgba(0,0,0, 0.5);
+    margin-top: 5%;
+}
+
+#ft_row_apropos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#ft_row_socialmedia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.bot_sous_titre  {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: black;    
+}
+
+#ft_pin {
+    display: flex;
+    padding: 2%;
+}
+
+#ft_pin ul {
+    padding-top: 2%;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;    
+} 
+
+
+#ft_pin a {
+    text-decoration: none;
+    color: #F2B705;
+}
+
+#bot_liste_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#bot_nav_1 {
+    display:flex;
+    justify-content: center;
+}
+
+#bot_nav_3 {
+    display: flex;
+    justify-content: center;
+}
+
+#bot_liste_3  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.fab {
+    font-size: 150%;
+}
+
+.fab:hover {
+    border-bottom: 3px dotted black;
+}
