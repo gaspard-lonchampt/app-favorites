@@ -1,0 +1,311 @@
+/*-------------Style---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family:'Whitney Bold';
+    src: url('media/Whitney Font/whitneybold.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Whitney Medium';
+    src: url('media/Whitney Font/whitneymedium.woff') format('woff');
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+html {
+width: 100%;
+height: 100%;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* background */
+
+#background_1 {
+    background-image: url(media/jonathan-kemper-M1aWU10jRwM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main_content_2 {
+    background-image: url(media/gryffyn-m-CgNQNx23Ptg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#main_content_3 {
+    background-image: url(media/amar-yashlaha-sAGXVK6bNFc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*-------------Header---------*/
+
+header {
+    height: 15%;
+    width: 100%;
+}
+
+#hd_env {
+    display: flex;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#hd_env a {
+    text-decoration: none;
+    color: black;
+}
+
+#hd_logo {
+    width: 40%;
+    text-align: right;
+}
+
+#hd_logo img {
+    width: 17%;
+}
+
+
+#titre_site {
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+}
+
+/* ----main content----- */
+
+#how_to_banner {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+#how_to_img {
+    width: 30%;
+}
+
+#how_to_img img {
+    width: 100%;
+    border-radius: 50px;
+    opacity: 0.8;
+}
+
+.bloc {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bloc_step h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Whitney Bold';
+    color: white;
+    opacity: 0.8;
+    padding: 5%;
+}
+
+#step1.bloc_step {
+    border: 10px solid transparent;
+    border-image-source: url(media/leaf_banner_top.png);
+    border-image-repeat: round;
+    border-image-slice: 80% 1%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#title_step_2 {
+    border: 10px solid transparent;
+    border-image-source: url(media/leaf_banner_bot.png);
+    border-image-repeat: round;
+    border-image-slice: 80% 1%;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#step3.bloc_step {
+    border: 10px solid transparent;
+    border-image-source: url(media/leaf_banner_top.png);
+    border-image-repeat: round;
+    border-image-slice: 80% 1%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#title_step_4 {
+    border: 10px solid transparent;
+    border-image-source: url(media/leaf_banner_bot.png);
+    border-image-repeat: round;
+    border-image-slice: 80% 1%;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.step_img_text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.step_img_text img {
+    width: 50%;
+}
+
+.step_img_text h3 {
+    width: 50%;
+    font-family: 'Whitney Medium';
+    font-size: 1.5em;
+    color: white;
+    opacity: 0.8;
+}
+
+.surligné_vert {
+    color: yellowgreen;
+}
+
+
+
+.store_buy {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+#btn_apple {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_apple img {
+    width: 100%;
+}
+
+#btn_apple a {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_play {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_play img {
+    width: 100%;
+}
+
+#btn_play a {
+    width: 82%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------Footer-------*/
+
+
+#footer {
+    height: 15%;
+    width: 100%;
+}
+
+#ft_row_apropos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#ft_row_socialmedia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.bot_sous_titre  {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: black;    
+}
+
+#ft_pin {
+    display: flex;
+    padding: 2%;
+}
+
+#ft_pin ul {
+    padding-top: 2%;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;    
+} 
+
+
+#ft_pin a {
+    text-decoration: none;
+    color: #F2B705;
+}
+
+#bot_liste_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#bot_nav_1 {
+    display:flex;
+    justify-content: center;
+}
+
+#bot_nav_3 {
+    display: flex;
+    justify-content: center;
+}
+
+#bot_liste_3  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.fab {
+    font-size: 150%;
+}
+
+.fab:hover {
+    border-bottom: 3px dotted black;
+}

@@ -1,0 +1,298 @@
+/*-------------Style---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family:'Gotham Bold';
+    src: url('media/Gotham-font/GothamBold.tff') format('truetype'),
+    url('media/Gotham-font/Gotham-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Gotham Light';
+    src: url('media/Gotham-font/GothamLight.tff') format('truetype'),
+    url('media/Gotham-font/Gotham-Light.otf') format('opentype');
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+html {
+background-color: #303030;
+width: 100%;
+height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-------------Header---------*/
+
+header {
+    height: 15%;
+    width: 100%;
+}
+
+#hd_env {
+    display: flex;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#hd_env a {
+    text-decoration: none;
+    color: white;
+}
+
+#hd_logo {
+    width: 40%;
+    text-align: right;
+}
+
+#hd_logo img {
+    width: 17%;
+}
+
+
+#titre_site {
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+}
+
+
+/*-------------Main-------*/
+
+#main_content {
+    height: 60%;
+    background-color: white;
+}
+
+#presentation_arte {
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#slogan_arte {
+    width: 50%;
+    text-align: center;
+    font-family:'Gotham Bold';
+    font-size: 200%;
+}
+
+#logo_arte {
+    width: 40%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_arte a {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+#logo_arte img {
+    width: 100%;
+}
+
+#screenshot_content {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#screenshot_arte_12 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-right: 1%;
+}
+
+#screenshot_arte_12 img {
+    width: 48%;
+    height: auto;
+}
+
+#screenshot_arte_34 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 1%;
+}
+
+#screenshot_arte_34 img {
+    width: 48%;
+}
+
+#video_description {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#video_description h3 {
+    font-family: 'Gotham Light';
+    font-size: 100%;
+    line-height: 120%;
+    text-align: justify;
+}
+
+#video_arte {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#video_arte iframe {
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+
+#description_arte {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+}
+
+.store_buy {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn_apple {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_apple img {
+    width: 100%;
+}
+
+#btn_apple a {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_play {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn_play img {
+    width: 100%;
+}
+
+#btn_play a {
+    width: 82%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------Footer-------*/
+
+
+#footer {
+    background-color: rgba(0,0,0, 0.5);
+    height: 15%;
+    width: 100%;
+}
+
+#ft_row_apropos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#ft_row_socialmedia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.bot_sous_titre  {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: white;    
+}
+
+#ft_pin {
+    display: flex;
+    padding: 2%;
+}
+
+#ft_pin ul {
+    padding-top: 2%;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;    
+} 
+
+
+#ft_pin a {
+    text-decoration: none;
+    color: #F2B705;
+}
+
+#bot_liste_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#bot_nav_1 {
+    display:flex;
+    justify-content: center;
+}
+
+#bot_nav_3 {
+    display: flex;
+    justify-content: center;
+}
+
+#bot_liste_3  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.fab {
+    font-size: 150%;
+}
+
+.fab:hover {
+    border-bottom: 3px dotted white;
+}

@@ -1,0 +1,266 @@
+/*-------------Style---------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face {
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+html {
+width: 100%;
+height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*-------------Header---------*/
+
+header {
+    background-color: white;
+    height: 15%;
+    width: 100%;
+}
+
+#hd_env {
+    display: flex;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#hd_env a {
+    text-decoration: none;
+    color: black;
+}
+
+#hd_logo {
+    width: 40%;
+    text-align: right;
+}
+
+#hd_logo img {
+    width: 17%;
+}
+
+
+#titre_site {
+    width: auto;
+    height: auto;
+    padding-left: 2%;
+}
+
+
+/* main content */
+
+
+#main_content {
+    height: 70%;
+    background-image: url(media/apple_music_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#presentation_apple_music {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_apple {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_apple a {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_apple img {
+    width: 100%;
+}
+
+
+#slogan_apple_music {
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-family:"Helvetica";
+    font-size: 300%;
+}
+
+#screenshot_content {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+#screenshot_apple_12 {
+    display: flex;
+    justify-content: center;
+}
+
+#screenshot_apple_12 img {
+    width: 38%;
+}
+
+#player {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+#apple_player {
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    margin: auto;
+}
+
+#apple_player iframe {
+    width: 100%;
+}
+
+#description {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
+
+#description_texte {
+    font-family: Helvetica;
+    font-size: 200%;
+    color: black;
+    text-align: center;
+}
+
+.texte_surligné {
+    background: -webkit-linear-gradient(darkblue,rgb(172, 83, 98));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.store_buy {
+    height: 25%;
+    width: 50%;
+    margin: auto;
+}
+
+#btn_apple {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+#btn_apple img {
+    width: 100%;
+}
+
+#btn_apple a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*-------------Footer-------*/
+
+
+#footer {
+    background-color: white;
+    height: 15%;
+    width: 100%;
+}
+
+#ft_row_apropos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#ft_row_socialmedia {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.bot_sous_titre  {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    color: black;    
+}
+
+#ft_pin {
+    display: flex;
+    padding: 2%;
+}
+
+#ft_pin ul {
+    padding-top: 2%;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;    
+} 
+
+
+#ft_pin a {
+    text-decoration: none;
+    color: #F2B705;
+}
+
+#bot_liste_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#bot_nav_1 {
+    display:flex;
+    justify-content: center;
+}
+
+#bot_nav_3 {
+    display: flex;
+    justify-content: center;
+}
+
+#bot_liste_3  {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.fab {
+    font-size: 150%;
+}
+
+.fab:hover {
+    border-bottom: 3px dotted black;
+}
