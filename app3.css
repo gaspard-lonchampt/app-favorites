@@ -65,15 +65,15 @@ header {
 #hd_env {
     display: flex;
     align-items: center;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 400;
+    font-family: 'Whitney Bold';
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
 #hd_env a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 1.3em;
 }
 
 #hd_logo {
@@ -258,9 +258,9 @@ header {
 }
 
 .bot_sous_titre  {
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 400;
-    color: black;    
+    font-family: 'Whitney Bold';
+    font-weight: 1em;
+    color: white;    
 }
 
 #ft_pin {
@@ -307,5 +307,5 @@ header {
 }
 
 .fab:hover {
-    border-bottom: 3px dotted black;
+    border-bottom: 3px dotted white;
 }

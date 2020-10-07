@@ -35,8 +35,7 @@ header {
 #hd_env {
     display: flex;
     align-items: center;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 400;
+    font-family: Helvetica;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -44,6 +43,7 @@ header {
 #hd_env a {
     text-decoration: none;
     color: black;
+    font-size: 1em;
 }
 
 #hd_logo {
@@ -213,8 +213,8 @@ header {
 }
 
 .bot_sous_titre  {
-    font-family: 'Permanent Marker', cursive;
-    font-weight: 400;
+    font-family: Helvetica ;
+    font-size: 1em;
     color: black;    
 }
 

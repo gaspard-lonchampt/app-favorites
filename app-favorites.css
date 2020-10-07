@@ -167,6 +167,7 @@ main {
     width: 50%;
 }
 
+
 #top_liste_apple_li {
     transform: scale(1);
     transition: transform ease-out 2.5s;
