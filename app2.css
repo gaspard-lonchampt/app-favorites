@@ -2,9 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-@font-face {
-
-}
 
 
 * {
@@ -159,6 +156,7 @@ header {
 
 .texte_surligné {
     background: -webkit-linear-gradient(darkblue,rgb(172, 83, 98));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
