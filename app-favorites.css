@@ -163,6 +163,7 @@ main {
 #top_liste_apple:hover {
     background: -webkit-linear-gradient(pink, darkblue);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     width: 50%;
 }
